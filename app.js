@@ -1,6 +1,6 @@
 const catalog = [
   {
-    image: null,
+    image: "https://i.ibb.co/QvL4N88s/Frame-42.png",
     id: 'ember-phone',
     name: 'Ember Phone 14',
     tag: 'Flagship device',
@@ -12,7 +12,7 @@ const catalog = [
     storage: [128, 256, 512]
   },
   {
-    image: null,
+    image: "https://i.ibb.co/spqvyGc9/Frame-41.png",
     id: 'ember-plus',
     name: 'Ember Phone 14 Plus',
     tag: 'Wide display',
@@ -24,7 +24,7 @@ const catalog = [
     storage: [128, 256, 512]
   },
   {
-    image: null,
+    image: "https://i.ibb.co/Y4b4ZsnC/Frame-40.png",
     id: 'ember-fold',
     name: 'Ember Fold X',
     tag: 'Foldable series',
@@ -36,7 +36,7 @@ const catalog = [
     storage: [128, 256, 512]
   },
   {
-    image: null,
+    image: "https://i.ibb.co/s4bRt64/Frame-39.png",
     id: 'luminous-earbuds',
     name: 'Luminous Earbuds',
     tag: 'True wireless',
@@ -48,7 +48,7 @@ const catalog = [
     storage: [128, 256, 512]
   },
   {
-    image: null,
+    image: "https://i.ibb.co/ynZPK7RT/Frame-38.png",
     id: 'ember-watch',
     name: 'Ember Watch S',
     tag: 'Fitness ready',
@@ -60,7 +60,7 @@ const catalog = [
     storage: [128, 256, 512]
   },
   {
-    image: null,
+    image: "https://i.ibb.co/6cZqzX5D/Frame-37.png",
     id: 'ember-bundle',
     name: 'Ember Essentials Bundle',
     tag: 'Starter kit',
