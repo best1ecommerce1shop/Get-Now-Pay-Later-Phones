@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Fest Showcase</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="top-bar">
+      <div class="top-bar-row">
+        <button class="icon-button back-btn" aria-label="Go back">
+          <span aria-hidden="true">‹</span>
+        </button>
+        <div class="title-group">
+          <span class="eyebrow">Shopping Fest</span>
+          <h1>New Arrivals</h1>
+        </div>
+        <button class="icon-button cart-btn" id="cartToggle" aria-label="Open cart">
+          <span class="icon-cart" aria-hidden="true"></span>
+          <span class="badge" id="cartCount">0</span>
+        </button>
+      </div>
+      <div class="hero-card">
+        <div class="hero-text">
+          <h2>Get Now, Pay Later Phones</h2>
+          <p>Pick your next device with flexible plans during the Shopping Fest.</p>
+          <button class="accent-pill" id="heroExplore">Explore Devices</button>
+        </div>
+      </div>
+    </header>
+
+    <nav class="filter-pills" aria-label="Product filters">
+      <button class="pill active">All</button>
+      <button class="pill">Phones</button>
+      <button class="pill">Accessories</button>
+      <button class="pill">Bundles</button>
+    </nav>
+
+    <section class="product-grid" id="productGrid" aria-live="polite"></section>
+  </div>
+
+  <div class="cart-overlay" id="cartOverlay" aria-hidden="true">
+    <div class="cart-panel" role="dialog" aria-modal="true" aria-labelledby="cartTitle">
+      <header class="cart-header">
+        <h2 id="cartTitle">Your Cart</h2>
+        <button class="icon-button close-btn" id="cartClose" aria-label="Close cart">×</button>
+      </header>
+      <div class="cart-content">
+        <ul class="cart-list" id="cartList"></ul>
+        <div class="cart-empty" id="cartEmptyMessage">
+          <p>Tap a product to add it here.</p>
+        </div>
+      </div>
+      <button class="cta-button" id="cartCTA">Get Insight</button>
+    </div>
+  </div>
+
+  <div class="insight-feedback" id="insightFeedback" aria-hidden="true">
+    <div class="feedback-card">
+      <div class="check-circle">
+        <span class="check-mark"></span>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
